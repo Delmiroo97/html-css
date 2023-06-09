@@ -20,6 +20,11 @@
 --fonte-android: 'CinzelDecorative-Regular';
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: white;
     font-family: var(--fonte-padrao);
@@ -45,6 +50,7 @@ header {
     font-size: 3em;
     font-weight: bold;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
+    
  }
 
  header > p {
@@ -79,46 +85,33 @@ nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
 }
-
-main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-main h1  {
-    color: black;
-    font-family: var(--fonte-android);
-    font-weight: bold;
-    font-size: 2em;
-}
-
-main h2 {
-    font-family: var(--fonte-android);
-    color: var(--cor4);
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: normal;
-     text-indent: 8px;
-
-}
-
-main p {
-    padding: 15px 0px;
-    text-align: justify;
-    text-align: center;
-    text-indent: 30px;
-    font-size: 1em;
+ 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 20px;
+    font-family: var(--fonte-destaque);
+    font-size: 1vw;
 }
 
-main img {
-    padding: 0% 10% 0% 10%;
+section > p {
+    padding-bottom: 2em;
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-size: cover;
+    display: inline-block;
+    padding: 5px;
+    background-color: black;
+    
+}
+
+section#criança {
+    background-image: url('../meus-projetos/imagens/cr7-crianca.jpg');
+}
