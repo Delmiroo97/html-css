@@ -29,7 +29,7 @@ ul {
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-family: var(Roboto)
+    font-family:'Times New Roman', Times, serif
 
 }
 
@@ -49,7 +49,8 @@ h1 {
 footer > a > img {
     width: 40px;
     height: 40px;
-    border-radius: 50% ;
+    border-radius: 50%;
+    border: 2px solid white;
     
 }
 footer {
@@ -63,7 +64,33 @@ footer a {
     text-align: center;
     padding: 2px;
 }
+footer a:hover {
+    color: lightskyblue;
+}
 .container {
     padding: 0px 50px;
     
+}
+h3 p, a:hover {
+    color: lightskyblue;
+}
+h3, p {
+    font-family:'Times New Roman', Times, serif
+}
+h3 {
+    color: lightskyblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dsobremim {
+    background-color: white;
+    width: 100px;
+}
+.dformação {
+    background-color: white;
+    width: 158px;
+}
+.dcursos {
+    background-color: white;
+    width: 116px;
 }
