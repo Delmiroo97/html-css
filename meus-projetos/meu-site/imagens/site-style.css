@@ -3,9 +3,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
- {
-    font-family: Arial, Helvetica, sans-serif;
-}
 body {
     background-color: black;
     color: white;
@@ -85,6 +82,7 @@ h3 {
 .dsobremim {
     background-color: white;
     width: 100px;
+    
 }
 .dformação {
     background-color: white;
