@@ -8,12 +8,13 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
+
     
 }
 
 nav a:hover {
     
-    color: lightskyblue;
+    color: orangered;
 }
 
 ul {
@@ -35,13 +36,21 @@ header > div > img {
     height: 200px;
     border-radius: 50% ;
     
+    
+}
+header {
+    background-color: orangered;
+    
 }
 
 .center {
     text-align: center;
 }
-h1 {
-    color: lightskyblue;
+h1, h2 {
+    
+    color: black;
+    
+    
 }
 footer > a > img {
     width: 40px;
@@ -62,33 +71,33 @@ footer a {
     padding: 2px;
 }
 footer a:hover {
-    color: lightskyblue;
+    color: orangered;
 }
 .container {
-    padding: 0px 50px;
+    padding: 0px 0px;
     
 }
 h3 p, a:hover {
-    color: lightskyblue;
+    color: orangered;
 }
 h3, p {
     font-family:'Times New Roman', Times, serif
 }
 h3 {
-    color: lightskyblue;
+    color: orangered;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .dsobremim {
-    background-color: white;
-    width: 100px;
+   
+    
     
 }
 .dformação {
-    background-color: white;
+    
     width: 158px;
 }
 .dcursos {
-    background-color: white;
+    
     width: 116px;
 }
