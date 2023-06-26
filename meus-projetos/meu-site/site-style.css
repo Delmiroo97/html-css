@@ -9,6 +9,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
 
+
+    
+
     
 }
 
@@ -23,7 +26,8 @@ ul {
     list-style-type: none;
     align-items: center;
     padding: 16px;
-} a {
+}
+a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
@@ -39,7 +43,7 @@ header > div > img {
     
 }
 header {
-    background-color: orangered;
+    background-color: orange;
     
 }
 
@@ -56,7 +60,7 @@ footer > a > img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid black;
     
 }
 footer {
@@ -71,20 +75,20 @@ footer a {
     padding: 2px;
 }
 footer a:hover {
-    color: orangered;
+    color: orange;
 }
 .container {
     padding: 0px 0px;
     
 }
 h3 p, a:hover {
-    color: orangered;
+    color: orange;
 }
 h3, p {
     font-family:'Times New Roman', Times, serif
 }
 h3 {
-    color: orangered;
+    color: orange;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
