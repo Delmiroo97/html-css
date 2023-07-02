@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header > h1 {
+    padding-top: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100vw;
+}
+body > article > div#foto1 {
+
+    display: cover;
+    border: solid 1px black;
+    width: 800px;
+    height: 700px;
+    background: url(../imagens/pexels-matthis-volquardsen-3229970.jpg);
+    background-position:  center;
+    transform: translateX(65%);
+   
+}
+body > article > div#foto2 {
+    border: solid 1px black;
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/pexels-rachel-claire-4577571.jpg);
+    background-position:  center;
+}
+
+body > div#foto1 > h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+body > div#foto1 > p {
+    text-align: center;
+    text-align: justify;
+}
